@@ -1,0 +1,12 @@
+[project]
+name = "miscellaneous-modbus-devices"
+version = "0.1.0"
+description = "Collection of demo code to interact with assorted Modbus devices"
+readme = "readme.md"
+requires-python = ">=3.13"
+dependencies = ["minimalmodbus>=2.1.1", "structlog>=24.4.0"]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.8.1",
+]
