@@ -6,7 +6,9 @@
 	],
 	"settings": {
 		"cSpell.words": [
+			"BAUDRATE",
 			"datasheets",
+			"Logoele",
 			"minimalmodbus"
 		]
 	}
