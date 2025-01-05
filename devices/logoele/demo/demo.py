@@ -18,8 +18,8 @@ Setting the device address uses... function code 0x00?!
 I could not reliably communicate with the device with supply voltages less than 10v.
 """
 
-import structlog
 import minimalmodbus
+import structlog
 
 log = structlog.get_logger(__name__)
 

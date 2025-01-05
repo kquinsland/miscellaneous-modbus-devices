@@ -10,6 +10,7 @@ Quick and dirty demo for embedded metadata in a script using PEP 723 format
 """
 
 import structlog
+
 log = structlog.get_logger(__name__)
 
 

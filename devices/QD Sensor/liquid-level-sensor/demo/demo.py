@@ -16,8 +16,8 @@ I had no trouble powering this from a cheap USB to RS485 adapter... that does no
     a voltage boost circuit so there doesn't seem to be any issue with using logic level power.
 """
 
-import structlog
 import minimalmodbus
+import structlog
 
 log = structlog.get_logger(__name__)
 

@@ -12,8 +12,8 @@ Quick PoC for interrogating the ceiling mount lux/temp/humidity sensor from ComW
 
 """
 
-import structlog
 import minimalmodbus
+import structlog
 
 log = structlog.get_logger(__name__)
 
